@@ -20,7 +20,7 @@ def creative_plots(df):
     plt.show()
 
     # Example Plot 3: Premium Distribution by Vehicle Make
-    sns.boxplot(x='Make', y='TotalPremium', data=df)
+    sns.boxplot(x='make', y='TotalPremium', data=df)
     plt.title('Total Premium Distribution by Vehicle Make')
     plt.xticks(rotation=45)
     plt.show()
