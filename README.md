@@ -68,6 +68,26 @@ git clone <repository-url>
 cd <repository-directory>
 dvc pull
 
+## Task 3: A/B Hypothesis Testing
+# Overview
+In this task, we conducted A/B hypothesis testing to analyze the impact of various features on risk and profit margins. This involves formulating null hypotheses and using statistical tests to validate them.
+
+# Null Hypotheses
+H0: There are no risk differences across provinces.
+H0: There are no risk differences between zip codes.
+H0: There are no significant margin (profit) differences between zip codes.
+H0: There are no significant risk differences between Women and Men.
+# Steps Implemented
+Data Segmentation: The dataset was segmented into control and test groups based on client features (e.g., IsVATRegistered).
+Statistical Testing:
+Chi-Squared Test: Used to analyze categorical data and test risk differences across provinces.
+T-Test: Used to compare profit margins between different groups.
+Analysis and Reporting: Results were documented, and findings were summarized to provide insights into the hypotheses.
+Benefits of A/B Testing
+Data-Driven Decisions: Helps in making informed decisions based on statistical evidence.
+Performance Evaluation: Evaluates the effectiveness of different strategies or features.
+Risk Management: Identifies potential risks associated with different client demographics or features.
+
 ## License
 
 This project is licensed under the MIT License.
